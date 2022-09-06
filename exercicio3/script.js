@@ -1,4 +1,4 @@
-let nacionalidade = prompt("Escreva aqui a sua nacionalidade")
+let nacionalidade = prompt("Escreva aqui a sua nacionalidade").toLocaleLowerCase()
 if (nacionalidade==="brasileira") {
     console.log("sua nacionalidade é brasileira")
 } else if(nacionalidade==="argentina") {
