@@ -1,6 +1,6 @@
-let idade = prompt("Digite a sua idade");
+let idade = Number(prompt("Digite a sua idade"));
 let isTerminouEnsinoMedio = confirm("terminou o ensino médio");
-let isCursandoAlgumaFaculdade = false
+let isCursandoAlgumaFaculdade = false;
 
 if (idade >= 18) {
   console.log("A pessoa é maior de idade");
